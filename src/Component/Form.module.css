@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(122, 178, 184);
+}
+.container{
+    width: 800px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius:20px;
+    display: flex;
+}
+.child1{
+    display: flex;
+   
+    
+}
+.picture{
+ display: flex;
+    position: relative;
+}
+.picture img{
+    height: 480px ;
+margin: 0.4em 0.5em;
+margin-right: 70px;
+
+}
+.info{
+    margin-left: 40px;
+    margin-top: 40px;
+position:absolute;
+color: white;
+
+}
+.step{
+    display: flex;
+    gap: 10px;
+}
+.num{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: aqua;
+    margin-top: 5px;
+    color: black;
+    border: 1px solid black;
+}
+.stin p{
+    margin-right: 35px;
+    color: black;
+    font-size: small;
+    opacity: 0.7;
+}
+.plan{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.two{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    color: black;
+
+}
+.tplan p{
+ 
+    margin-right: 45px;
+    color: black;
+    font-size: small;
+    opacity: 0.7;
+}
+.add{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.three{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    color: black; 
+}
+.tadd p{
+    margin-right: 25px;
+    color: black;
+    font-size: small;
+    opacity: 0.7;
+
+}
+.sum{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.four{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    color: black;  
+}
+.sumt p{
+    margin-right: 25px;
+    color: black;
+    font-size: small;
+    opacity: 0.7;
+}
+.details{
+    padding: 1em 1em;
+    display: flex;
+    flex-direction: column;
+}
+.details input{
+    padding: 1em 1em;
+    width: 300px;
+border-radius: 10px;
+}
+.details label{
+ margin-right: 350px;
+    
+}
+.but button{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.personal{
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.personal h2{
+    margin-right: 280px;
+}
+.ste{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.sti p{
+    color: black;
+    opacity: 0.7;
+    margin-right: 40px;
+}
+.select{
+    margin-bottom: 30px;
+    margin-right: 150px;
+}
+.square{
+ 
+    width: 400px;
+    height: 60px;
+    display: flex;
+ margin-bottom: 100px;
+    gap: 50px;
+}
+.squ1{
+    height:120px ;
+    border-radius: 10px;
+    width: 210px;
+    border: 1px solid rgb(149, 108, 226);
+    background-color: rgb(239, 239, 245);
+}
+
+.squ{
+    height:120px ;
+    width: 210px;
+    border-radius: 10px;
+    border: 1px solid rgb(149, 108, 226);
+}
+.squ1 img{
+    margin-top: 10px;
+
+}
+.ar{
+    margin-top: 17px;
+}
+.ad{
+    margin-top: 17px;
+
+}
+.pr{ 
+    margin-top: 17px;
+
+}
+.squ img{
+    margin-top: 10px;
+}
+.rec{
+    display: flex;
+    gap: 10px;
+ margin-bottom: 100px;
+height: 50px;
+width: 400px;
+border-radius: 20px;
+background-color: rgb(174, 186, 231);
+}
+.rec p{
+    padding: 0.6em ;
+    margin-left: 50px;
+    color: white;
+}
+.down{
+    display: flex;
+    gap: 250px;
+
+}
+ .down button{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+ }
+ .down p{
+    color: blue;
+    cursor: pointer;
+ }
+ .select h2{
+    margin-right: 150px;
+ }
+ .online{
+justify-content: space-between;
+display: flex;
+flex-direction: column;
+gap: 15px;
+margin-bottom: 100px;
+ }
+ .pick{
+    margin-bottom: 20px;
+    margin-right: 150px;
+
+ }
+  .pick h2{
+    margin-right: 180px;
+
+  }
+ .on{
+    height: 60px;
+    display: flex;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(60, 60, 136);
+    background-color: rgb(216, 216, 228);
+    
+ }
+ .check{
+    padding: 1em 1em;
+    
+ }
+ .check input {
+    width: 20px;
+    height: 20px;
+ }
+ .onl h5{
+    margin-right: 80px;
+    margin-top: 10px;
+ }
+ .price p{
+    padding: 1em 1em;
+    color: blue;
+ }
+ .big{
+    width: 400px;
+    height: 150px;
+    background-color:rgb(221, 221, 238) ;
+    border-radius: 10px;
+     margin-right: 85px;
+    margin-bottom: 50px;
+
+ }
+ .ade{
+    display: flex;
+    gap: 150px;
+    border-bottom: 1px solid rgb(144, 144, 172); ;
+ }
+ .ac{
+    margin:1em;
+ }
+ .dol{
+  
+   margin: 1.5em ;
+
+ }
+ .dol h5{
+    margin-top: 15px;
+ }
+ .ac p{
+    margin-right: 50px;
+    color: blue;
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+ }
+ .ons{
+    display: flex;
+    gap: 200px;
+    margin-left: 20px;
+ }
+ .service p{
+    padding: 0.1em;
+ }
+ .bills h5{
+    padding: 0.2em;
+
+ }
+ .tot{
+    display: flex;
+    gap: 200px;
+    margin-left: 20px;
+   
+    margin-bottom: 90px;
+   
+
+ }
+ .tot h5{
+    color:blue;
+
+ }
+ .up{
+    margin-bottom: 20px;
+    margin-right: 85px;
+ }
+ .up h2{
+margin-right: 240px;
+ }
+ .you p {
+    width: 450px;
+    font-size: smaller;
+ }
+ .you{
+    margin-right: 40px;
+    margin-bottom: 120px;
+ }
